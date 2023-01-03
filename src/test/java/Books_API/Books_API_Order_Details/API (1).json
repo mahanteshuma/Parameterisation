@@ -1,0 +1,32 @@
+[
+ {
+   "BookId": 1,
+   "CustomerName": "David",
+   "FIELD3": ""
+ },
+ {
+   "BookId": 2,
+   "CustomerName": "John",
+   "FIELD3": ""
+ },
+ {
+   "BookId": 3,
+   "CustomerName": "Scott",
+   "FIELD3": ""
+ },
+ {
+   "BookId": 4,
+   "CustomerName": "Mary",
+   "FIELD3": ""
+ },
+ {
+   "BookId": 5,
+   "CustomerName": "Dora",
+   "FIELD3": ""
+ },
+ {
+   "BookId": 6,
+   "CustomerName": "Kim",
+   "FIELD3": ""
+ }
+]

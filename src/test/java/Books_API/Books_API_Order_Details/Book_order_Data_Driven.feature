@@ -17,7 +17,7 @@ Feature: Validate the Book order Details from from DataSheet
 
 
     Examples:
-      | bookId | customerName |
-      | 5 | Poll |
+#      | bookId | customerName |
+#      | 5 | Poll |
 
-#      | read('classpath:API.json') |
+      | read('classpath:API(1).json') |
