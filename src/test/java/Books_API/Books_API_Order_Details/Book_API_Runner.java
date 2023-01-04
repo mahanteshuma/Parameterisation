@@ -2,7 +2,7 @@ package Books_API.Books_API_Order_Details;
 
 import com.intuit.karate.junit5.Karate;
 
-class UsersRunner {
+class Book_API_Runner {
     
     @Karate.Test
     Karate testUsers() {

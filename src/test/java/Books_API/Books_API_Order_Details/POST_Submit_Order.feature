@@ -1,13 +1,13 @@
 Feature: Validate The POST call Submit Order Request
 
   Background:
-    * def SubmitOrder =
-    """
-    {
-    "bookId" : 5,
-    "customerName" : "Devid"
-}
-    """
+    * def SubmitOrder = read('PostCallPayload.json')
+#    """
+#    {
+#    "bookId" : 5,
+#    "customerName" : "Devid"
+#     }
+#    """
 
   Scenario: Verify The Submit Request call Details
     Given url baseUrl + '/orders'
@@ -18,5 +18,6 @@ Feature: Validate The POST call Submit Order Request
     * print response
     * print responseStatus
     * print responseTime
+#    And match response == SubmitOrder
     And match $.created == true
     And match $.orderId == '#present'

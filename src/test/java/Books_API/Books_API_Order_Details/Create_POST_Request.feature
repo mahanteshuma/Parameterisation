@@ -17,13 +17,13 @@ Feature: Create Access_Token
     * def requestPayload =
     """
     {
-    "clientName" : "Data Driven API",
-    "clientEmail" : "valent003@example.com"
+    "clientName" : "David Wilson",
+    "email" : "davidwilson@gmail.com
     }
     """
 #    * requestPayload.email = randomEmil + "@gamil.com"
     * print requestPayload
-    
+
   Scenario: Access_Token
     Given url baseUrl + '/api-clients/'
     And request requestPayload
@@ -37,4 +37,3 @@ Feature: Create Access_Token
 
 
 
-#
